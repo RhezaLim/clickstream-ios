@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "Clickstream",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(name: "Clickstream", targets: ["Clickstream"]),
         .library(name: "ClickstreamTracker", targets: ["Clickstream"]),
